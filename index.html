@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TLR student Dashboard</title>
+    <link rel="icon" type="image/jpg" sizes="32*32" href="./images/fav-icon.jpg">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/15cca946ae.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <article class="notification">
+                <i class="fa-regular fa-bell"></i>
+                <p class="para1">No Notifications</p>
+            </article>
+            <a class="dashboard" href="#student-profile">
+                <i class="fa-solid fa-address-book"></i>
+                Dashboard
+            </a>
+            <a href="#subjects">
+                <i class="fa-solid fa-book"></i>
+                Subjects
+            </a>
+            <a href="#Attendance">
+                <i class="fa-solid fa-clipboard-user"></i>
+                Attendence
+            </a>
+            <a href="#profile-info">
+                <i class="fa-solid fa-circle-user"></i>
+                Profile info
+            </a>
+            <a href="#settings">
+                <i class="fa-solid fa-gear"></i>
+                settings
+            </a>
+        </nav>
+        <div class="content">
+            <header class="header">
+                <div>
+                    <h1 class="mainheading">
+                        <img src="./images/fav-icon.jpg" alt="TLR Logo" style="width: 50px; height: 50px; padding: 5px;">
+                        welcome to the TLR student portal
+                    </h1>
+                </div>
+            </header>
+            <main>
+                <section id="student-profile">
+                    <h1 class="profile-heading">Student Profile:</h1>
+                    <div class="profile-user">
+                        <img src="./images/profile-avatar.webp" alt="Profile Avatar" class="profile-avatar">
+                        <h2 class="profile-name">Profile Name : Thulugu Dileep</h2>
+                    </div>
+                    <div class="cards">
+                        <article class="card">
+                            <h3 class="card-title">CGPA</h3>
+                            <p class="card-value">6.8</p>
+                        </article>
+                        <article class="card">
+                            <h3 class="card-title">Attendance</h3>
+                            <p class="card-value">85%</p>
+                        </article>
+                        <article class="card">
+                            <h3 class="card-title">Assignment Dues</h3>
+                            <p class="card-value">2</p>
+                        </article>
+                        <article class="card">
+                            <h3 class="card-title">Total Credits</h3>
+                            <p class="card-value">120</p>
+                        </article>
+                    </div>
+                </section>
+                <section id="subjects">
+                    <h2 class="sub-heading">Subjects</h2>
+                    <table>
+                        <thead>
+                        <tr>
+                            <th>Subject</th>
+                            <th>Grade</th>
+                            <th>Date</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>Mathematics</td>
+                            <td>A</td>
+                            <td>Aug 1, 2025</td>
+                        </tr>
+                        <tr>
+                            <td>Physics</td>
+                            <td>B+</td>
+                            <td>Jul 28, 2025</td>
+                        </tr>
+                        <tr>
+                            <td>English</td>
+                            <td>A-</td>
+                            <td>Jul 25, 2025</td>
+                        </tr>
+                        <tr>
+                            <td>Chemistry</td>
+                            <td>B</td>
+                            <td>Jul 20, 2025</td>
+                        </tr>
+                        <tr>
+                            <td>Biology</td>
+                            <td>A</td>
+                            <td>Jul 15, 2025</td>
+                        </tr>
+                        <tr>
+                            <td>History</td>
+                            <td>B+</td>
+                            <td>Jul 10, 2025</td>
+                        </tr>
+                        <tr>
+                            <td>Computer Science</td>
+                            <td>A</td>
+                            <td>Jul 5, 2025</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </section>
+                <section id="Attendance">
+                    <h2 class="sub-heading">Attendance</h2>
+                    <table>
+                        <thead>
+                        <tr>
+                            <th>Date</th>
+                            <th>Status</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>Aug 1, 2025</td>
+                            <td>Present</td>
+                        </tr>
+                        <tr>
+                            <td>Jul 31, 2025</td>
+                            <td>Absent</td>
+                        </tr>
+                        <tr>
+                            <td>Jul 30, 2025</td>
+                            <td>Present</td>
+                        </tr>
+                        <tr>
+                            <td>Jul 29, 2025</td>
+                            <td>Present</td>
+                        </tr>
+                        <tr>
+                            <td>Jul 28, 2025</td>
+                            <td>Absent</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                    <center><img src="./images/attendence-chart.jpg" alt="Attendance Chart" class="attendance-chart" /></center>
+                </section>
+                <section id="profile-info">
+                    <h2 class="sub-heading">Profile Info</h2>
+                    <div class="profile-info">
+                        <article class="card1">
+                            <center>
+                                <img src="./images/profile-avatar.webp" alt="Profile Avatar" class="profile-avatar1">
+                            </center>
+                            <p><strong>Name:</strong> Thulugu Dileep</p>
+                            <p><strong>Roll No:</strong> 21951A2116</p>
+                            <p><strong>Email:</strong> thulugudileep@gmail.com</p>
+                            <p><strong>College:</strong> TLR College of Engineering</p>
+                            <p><strong>Department:</strong> Aeronautical Engineering</p>
+                            <p><strong>Skills:</strong> HTML, CSS, JAVASCRIPT, REACT JS, NODE JS, PYTHON, GIT, GITHUB, SQL, POWER BI</p>
+                        </article>
+                </section>
+                <section id="settings">
+                    <h2 class="sub-heading">Settings</h2>
+                    <p class="sub-heading">Settings content goes here.</p>
+                    <article class="card1">
+                        <center>
+                            <i class="fa-solid fa-gear setting"></i>
+                        </center>
+                        <article class="display1">
+                            <p><strong>Change Password:</strong> <a> Click here</a></p>
+                            <p><strong>Update Profile:</strong> <a> Click here</a></p>
+                            <p><strong>Privacy Settings:</strong> <a> Click here</a></p>
+                        </article>
+                        
+                    </article>
+                </section>
+                <footer class="footer">
+                    <p>&copy; 2025 TLR College of Engineering. All rights reserved.</p>
+                    <p>Developed by Thulugu Dileep</p>
+                </footer>
+            </main>
+        </div>
+    </div>
+</body>
+</html>
